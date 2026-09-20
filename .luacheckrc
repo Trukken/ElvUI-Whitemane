@@ -15815,6 +15815,7 @@ globals = {
 	"ColorPickerFrame",
 	"ColorPickerCancelButton",
 	"ColorPickerOkayButton",
+	"CollectionsMicroButton",
 	"OpacitySliderFrame",
 	"OpacityFrame",
 	"OpacityFrameSlider",

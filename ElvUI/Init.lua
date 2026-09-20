@@ -118,6 +118,10 @@ do
 	DisableAddOn("ElvUI_VisualAuraTimers")
 	DisableAddOn("ElvUI_MinimapButtons")
 	DisableAddOn("ElvUI_ChannelAlerts")
+
+	-- Whitemane's Collections journal is LoadOnDemand; if it's ever left disabled
+	-- in the AddOns list, CollectionsMicroButton's click silently fails to load it.
+	EnableAddOn("Rebuffed_Collections")
 end
 
 function AddOn:OnInitialize()
