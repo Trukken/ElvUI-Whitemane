@@ -1,15 +1,12 @@
-[![Game Version](https://img.shields.io/badge/wow-3.3.5-blue.svg)](https://github.com/ElvUI-WotLK)
-[![Discord](https://discordapp.com/api/guilds/259362419372064778/widget.png?style=shield)](https://discord.gg/UXSc7nt)
-[![GitHub Actions](https://github.com/ElvUI-WotLK/ElvUI/workflows/lint/badge.svg?branch=master&event=push)](https://github.com/ElvUI-WotLK/ElvUI/actions?query=workflow%3Alint+branch%3Amaster)
+# ElvUI - Wrath of the Lich King (3.3.5a) - Whitemane Frostmourne
 
-# ElvUI - Wrath of the Lich King (3.3.5a)
+ElvUI backport for Whitemane Frostmourne realm.
 
-This is the backported version of ElvUI for World of Warcraft - Wrath of the Lich King (3.3.5a)
-<br />
-ElvUI is a full UI replacement.
-It completely replaces the default Blizzard UI at every level with a new and better interface.
-As such, you'll only ever have to update ElvUI and not worry too much about its individual components.
-This UI will arrange your interface to be more flexible and practical.
+Any bug/issue can be reported in the [issues](https://github.com/Trukken/ElvUI-Whitemane/issues) tab.
+
+#### All credit goes to the original author: https://github.com/ElvUI-WotLK/ElvUI
+
+---
 
 ## Screenshots:
 
@@ -37,7 +34,7 @@ This UI will arrange your interface to be more flexible and practical.
 
 ## Installation:
 
-1. Download **[Latest Version](https://github.com/ElvUI-WotLK/ElvUI/releases/latest)**
+1. Download **[Latest Version](https://github.com/Trukken/ElvUI-Whitemane/releases/latest)**
 2. Unpack the Zip file
 3. Open the folder "ElvUI-(#.##)"
 4. Copy (or drag and drop) **ElvUI** and **ElvUI_OptionsUI** into your Wow-Directory\Interface\AddOns
@@ -77,7 +74,7 @@ This UI will arrange your interface to be more flexible and practical.
 [ElvUI_VisualProcs](https://github.com/ElvUI-WotLK/ElvUI_VisualProcs)
 <br />
 
--- Please Note: These plugins will not function without ElvUI installed.
+-- Please Note: These plugins were not tested against Whitemane Frostmourne realm.
 
 ## Commands:
 
@@ -128,98 +125,3 @@ ElvUI supports and contains language specific code for the following gameclients
 * Chinese (zhCN)
 * Spanish (esES)
 * Russian (ruRU)
-
-## FAQ:
-
-### I would like to report a bug. What i need to do?
-Make sure you're using the latest version of [ElvUI](https://github.com/ElvUI-WotLK/ElvUI/releases/latest)
-<br />
-Describe your issue in as much detail as possible.
-<br />
-If your issue is graphical, please take some screenshots to illustrate it.
-<br />
-What were you doing when the problem occurred?
-<br />
-Explain how people can reproduce the issue.
-<br />
-The more info you provide, the better and faster support you will receive.
-
-### I would like to request a feature. Where do I go?
-This repository has been created to reproduce the original ElvUI functions.
-<br />
-If you want to request a feature, post in the [ElvUI_Enhanced](https://github.com/ElvUI-WotLK/ElvUI_Enhanced/issues)
-<br />
-If you want to request for a change to an existing **ElvUI** function, post in the [ElvUI_CustomTweaks](https://github.com/ElvUI-WotLK/ElvUI_CustomTweaks/issues)
-
-### I have a suggestion/problem with ElvUI_"PluginName". Where do I go?
-Create an issue at the bug tracker of [ElvUI](https://github.com/ElvUI-WotLK)_"PluginName" repository.
-
-### ElvUI conflicting with "AddonName".
-Make sure you're using the latest available version of "AddonName" for WotLK before creating a ticket about it.
-
-### Can you backport "AddonName" to WotLK?
-The only purpose of ElvUI-WotLK is to improve the backported version of ElvUI and its plugins.
-
-
-## FAQ RU:
-
-### Я хочу сообщить о баге. Что мне нужно делать?
-Убедитесь что вы используете последнюю версию [ElvUI](https://github.com/ElvUI-WotLK/ElvUI/releases/latest)
-<br />
-Детально опишите свою проблему.
-<br />
-Если ваша проблема носит визуальный характер, пожалуйста предоставьте скриншоты.
-<br />
-Что вы делали, когда произошла ошибка?
-<br />
-Опишите, как можно воспроизвести эту ошибку.
-<br />
-Чем больше информации о проблемы вы предоставите, тем быстрее вам помогут.
-
-### Я хотел бы попросить о добавлении возможности в ElvUI. Где написать?
-Данный репозиторий создан с целью воспроизведения оригинального функционал ElvUI.
-<br />
-Запросы на добавление нового функционала рассматриваются в репозитории [ElvUI_Enhanced](https://github.com/ElvUI-WotLK/ElvUI_Enhanced/issues)
-<br />
-Запросы на изменение существующего функционала **ElvUI** рассматриваются в репозитории [ElvUI_CustomTweaks](https://github.com/ElvUI-WotLK/ElvUI_CustomTweaks/issues)
-
-### У меня проблема с ElvUI_"ИмяПлагина". Где написать?
-Создайте запрос в репозитории баг-трекере [ElvUI](https://github.com/ElvUI-WotLK)_"ИмяПлагина".
-
-### ElvUI конфликтует с "ИмяАддона".
-Убедитесь, что вы используете последнюю доступную версию "ИмяАддона" для WotLK, перед тем как создать тикет о конфликте.
-
-### Могли бы вы портировать "ИмяАддона" на WotLK?
-Единственная цель ElvUI-WotLK заключается в улучшении портированной версии ElvUI и его плагинов.
-
-
-## FAQ  中文:
-
-### 我想要报告一个问题，我需要做什么？
-确保你正在使用的是最新版本的[ElvUI]。(https://github.com/ElvUI-WotLK/ElvUI/releases/latest)
-<br />
-请尽可能清楚的描述你所遇到的问题。
-<br />
-如果你遇到的是关于图形方面的问题，请用一些截图来说明它。
-<br />
-你在做什么事情的时候这个问题发生了？
-<br />
-向我们说明如何可以复现这个问题。
-<br />
-你提供的信息越多，我们也可以更好更快的帮助你解决问题。
-
-### 我想要你们为ELvUI增加一个功能，我应该怎么做？
-本资料库的创建是为了复制源生的**ElvUI**功能。
-<br />
-如果你想要请求一个新的功能，将你的请求发布在[ElvUI_Enhanced](https://github.com/ElvUI-WotLK/ElvUI_Enhanced/issues)
-<br />
-如果你想要请求对现有**ElvUI**的功能进行修改，那么将你的请求发布在[ElvUI_CustomTweaks](https://github.com/ElvUI-WotLK/ElvUI_CustomTweaks/issues)
-
-### 我对现有的ElvUI_"插件名称"有一些建议/问题，我应该怎么做？
-在[ElvUI](https://github.com/ElvUI-WotLK)中“插件名称”资料库中的问题跟踪器中创建一个问题。
-
-### ElvUI跟“插件名称”有冲突。
-在提交表单之前确保你使用的是适用在魔兽世界·巫妖王之怒中的最新版本的“插件名称”。
-
-### 可以将“插件名称”移植到魔兽世界·巫妖王之怒中吗？
-ElvUI-WotLK的唯一目的是改进的ElvUI移植版本和它的子插件。

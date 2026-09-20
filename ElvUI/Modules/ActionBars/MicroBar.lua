@@ -19,6 +19,7 @@ local MICRO_BUTTONS = {
 	"SocialsMicroButton",
 	"PVPMicroButton",
 	"LFDMicroButton",
+	"CollectionsMicroButton",
 	"MainMenuMicroButton",
 	"HelpMicroButton"
 }
@@ -164,6 +165,9 @@ function AB:SetupMicroBar()
 	end
 
 	MicroButtonPortrait:SetAllPoints()
+
+	-- Collections Micro Button
+	CollectionsMicroButtonIcon:SetAllPoints()
 
 	-- PvP Micro Button
 	PVPMicroButtonTexture:SetAllPoints()
